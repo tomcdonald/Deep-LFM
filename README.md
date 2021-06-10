@@ -4,7 +4,7 @@ This repository contains a PyTorch implementation of the *deep latent force mode
 
 ![DLFM Model Architecture](assets/model.png "DLFM Model Architecture")
 
-These compositions of physics-informed random features allow us to model nonlinearities in multivariate dynamical systems with a sound quantification of uncertainty and the ability to extrapolate effectively.
+These compositions of physics-informed random features allow us to model nonlinearities in multivariate dynamical systems with a sound quantification of uncertainty and the ability to extrapolate effectively. The plot below shows DLFM predictions on a highly nonlinear multivariate time series, extracted from the [CHARIS PhysioNet dataset](https://physionet.org/content/charisdb/1.0.0/); note the ability of the model to extrapolate beyond the training regime which ends at t=0.7.
 
 ![PhysioNet Results](assets/physionet.png "PhysioNet Results")
 
