@@ -14,4 +14,13 @@ These compositions of physics-informed random features allow us to model nonline
 
 ## Citation
 
-TODO
+```
+@misc{mcdonald2021compositional,
+      title={Compositional Modeling of Nonlinear Dynamical Systems with ODE-based Random Features}, 
+      author={Thomas M. McDonald and Mauricio A. Álvarez},
+      year={2021},
+      eprint={2106.05960},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+```
