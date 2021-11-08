@@ -1,6 +1,8 @@
 # Deep Latent Force Models
 
-This repository contains a PyTorch implementation of the *deep latent force model* (DLFM), presented in the paper, *Compositional Modeling of Nonlinear Dynamical Systems with ODE-based Random Features*. The DLFM takes the form of a deep Gaussian process with random feature expansions, but with the random Fourier features in question derived from a physics-informed ODE1 LFM kernel, rather than a more general choice (such as the exponentiated quadratic kernel).
+This repository contains a PyTorch implementation of the *deep latent force model* (DLFM), presented in the paper, *Compositional Modeling of Nonlinear Dynamical Systems with ODE-based Random Features* ([view arXiv preprint here](https://arxiv.org/abs/2106.05960)), which has been accepted to NeurIPS 2021.  
+
+The DLFM takes the form of a deep Gaussian process with random feature expansions, but with the random Fourier features in question derived from a physics-informed ODE1 LFM kernel, rather than a more general choice (such as the exponentiated quadratic kernel).
 
 ![DLFM Model Architecture](assets/model.png "DLFM Model Architecture")
 
